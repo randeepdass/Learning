@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+.footer {
+  padding: 1em;
+  background-color: #7faad1;
+  text-align: center;
+}
+
+.Nav {
+  width: 180px;
+  height: 480px;
+  background-color: #bdbdbd;
+  float: left;
+}
+
+.nav_heading {
+  display: inline-block;
+  padding-top: 40px;
+  padding-left: 40px;
+  color: #000066;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+
+.nav_heading:hover {
+  color: #3262A3;
+}
+
+.nav_content {
+  padding-left: 40px;
+  font-size: 22px;
+  color: #3d003d;
+  font-weight: bold;
+}
+
+.main {
+  margin-left: 180px;
+  height: 367px;
+  background-color: white;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 2em;
+  border: solid #5353df 1px;
+}
+
+.main_heading {
+  color: #3262A3;
+  font-size: 23px;
+  font-weight: 900;
+}
+
+li {
+  list-style: none;
+  padding-left: 60px;
+  font-size: 18px;
+}
+
+.main_content {
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+.header {
+  height: 200px;
+  background-color: #000066;
+  color: white;
+  text-shadow: 2px 2px white;
+}
+
+.header_heading {
+  text-align: center;
+  padding: 1em;
+  font-size: 4em;
+  text-shadow: #CCCCCC;
+  background-image: url("Fish.png");
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Roboto;
+}
+
+* {
+  font-family: Noto serif;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7c7dd8), to(#2c2c77));
+  background-image: linear-gradient(#7c7dd8, #2c2c77);
+  color: black;
+}
+
+.Box {
+  margin: 8vh 12vw;
+  width: 890px;
+  height: 800px;
+}
+/*# sourceMappingURL=fishcreek.css.map */

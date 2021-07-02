@@ -1,0 +1,22 @@
+@import "footer";
+@import "nav";
+@import "main";
+@import "header";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    font-family: Noto serif;
+    margin: 0;
+    padding: 0;
+}
+.body{
+    height: 100vh;
+    display: grid;
+    background-image: linear-gradient(rgb(124, 125, 216), rgb(44, 44, 119));
+    color: rgb(0, 0, 0);
+}
+.Box{
+    margin: 8vh 12vw;
+    width: 890px;
+    height: 800px;
+}
