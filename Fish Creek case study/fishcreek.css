@@ -88,6 +88,10 @@ li {
 }
 
 .body {
+  padding-top: 4vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100vh;
   display: -ms-grid;
   display: grid;
@@ -97,7 +101,7 @@ li {
 }
 
 .Box {
-  margin: 8vh 12vw;
+  margin: auto;
   width: 890px;
   height: 800px;
 }
