@@ -1,9 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
-.footer {
-  padding: 1em;
-  background-color: #7faad1;
+.header {
+  height: 200px;
+  background-color: #000066;
+  color: white;
+  text-shadow: 2px 2px white;
+}
+
+.header_heading {
   text-align: center;
+  padding: 1em;
+  font-size: 4em;
+  text-shadow: #CCCCCC 2px;
+  background-image: url("Fish.png");
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Roboto;
 }
 
 .Nav {
@@ -62,23 +75,10 @@ li {
   padding-top: 30px;
 }
 
-.header {
-  height: 200px;
-  background-color: #000066;
-  color: white;
-  text-shadow: 2px 2px white;
-}
-
-.header_heading {
+.footer {
+  padding: 16px;
+  background-color: #7faad1;
   text-align: center;
-  padding: 1em;
-  font-size: 4em;
-  text-shadow: #CCCCCC;
-  background-image: url("Fish.png");
-  background-size: 300px;
-  background-repeat: no-repeat;
-  background-position: center;
-  font-family: Roboto;
 }
 
 * {
@@ -87,11 +87,8 @@ li {
   padding: 0;
 }
 
-.body {
+body {
   padding-top: 4vw;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   height: 100vh;
   display: -ms-grid;
   display: grid;
